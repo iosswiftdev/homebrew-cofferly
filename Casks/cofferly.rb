@@ -7,7 +7,7 @@ cask "cofferly" do
   desc "Encrypted clipboard manager"
   homepage "https://github.com/iosswiftdev/homebrew-cofferly"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Cofferly.app"
 
