@@ -25,12 +25,33 @@ brew upgrade --cask cofferly
 
 ## Uninstall
 
+**Leave nothing behind (recommended):** first open Cofferly's Settings › Security › **Erase History and Start Over**.
+It deletes your history and Cofferly's encryption keys from the Keychain, which uninstalling
+alone can't reach. Then remove the app as below.
+
+**Installed with Homebrew:**
+
 ```bash
 brew uninstall --cask cofferly
 ```
 
-Add `--zap` to also remove your history and settings. Cofferly's encryption keys stay in your
-Keychain (they're useless without the history); remove them in Keychain Access if you like.
+This keeps your history and settings in case you come back. To remove those too:
+
+```bash
+brew uninstall --cask --zap cofferly
+```
+
+**Downloaded by hand:**
+
+1. Quit Cofferly: menu bar icon › Quit Cofferly.
+2. Drag Cofferly from Applications to the Trash.
+3. Optionally remove your history and settings:
+   - `~/Library/Application Support/Cofferly`
+   - `~/Library/Preferences/app.cofferly.macos.cofferly.plist`
+
+**Afterwards**, if you like: remove Cofferly from System Settings › Privacy & Security ›
+Accessibility (select it, then −). If "Open at login" was on, its Login Items entry usually
+disappears by itself once the app is gone.
 
 ## About
 
