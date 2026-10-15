@@ -25,9 +25,15 @@ brew upgrade --cask cofferly
 
 ## Uninstall
 
-**Leave nothing behind (recommended):** first open Cofferly's Settings › Security › **Erase History and Start Over**.
-It deletes your history and Cofferly's encryption keys from the Keychain, which uninstalling
-alone can't reach. Then remove the app as below.
+**Easiest, leaving nothing behind (0.2.0 and later):** open Cofferly's Settings › Security ›
+**Uninstall Cofferly…** and confirm with Touch ID or your Mac password. It removes your history,
+settings and Cofferly's encryption keys in the Keychain (which removing the app alone can't
+reach), then moves the app to the Trash. Installed with Homebrew, it shows the one command that
+finishes the job: `brew uninstall --cask cofferly`. Want to keep your history? Make a backup
+first in Settings › History › **Back Up…**.
+
+Or by hand, as below. To leave nothing behind that way, first choose Settings › Security ›
+**Erase History and Start Over**, which deletes the Keychain keys.
 
 **Installed with Homebrew:**
 
