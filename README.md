@@ -3,7 +3,7 @@
 Your clipboard's coffer: a free clipboard manager for macOS 26 that keeps everything you copy
 encrypted, on your Mac only. Touch ID locking, a separate vault for passwords and tokens, and
 Paste Without Personal Info for sharing text safely. No network access, unless you turn on the
-optional AI (see below).
+optional AI or automatic update checks (see below).
 
 ## Install
 
@@ -21,13 +21,20 @@ Requires macOS 26 (Tahoe) or later. Cofferly is signed with Developer ID and not
 ## Privacy and the optional AI
 
 - What you copy never leaves your Mac.
-- With Settings › AI off (the default), Cofferly makes no network connections at all.
+- With Settings › AI off (the default) and update checks off, Cofferly makes no network connections at all.
+- **Check for updates automatically** (Settings › General, off until you answer): Cofferly asks this
+  repository once a day whether there's a new version, and sends nothing about your Mac. An update
+  is downloaded and installed only when you choose Install and Relaunch, and only if it's signed
+  with Cofferly's update key. **Check for Updates…** in the menu bar asks once, whenever you choose it.
 - Turning on **Find personal info with AI** (Settings › AI) downloads its model once (about 12 MB,
   from Hugging Face) and lets Desert Ant Labs count the Macs that use it: a random ID and how often
   it ran, never anything you copied.
 - The **Apple Intelligence** extra check runs on your Mac: nothing is sent or downloaded.
 
 ## Update
+
+From 0.5.0, Cofferly can update itself: Check for Updates… in its menu bar menu, then Install and
+Relaunch. With Homebrew:
 
 ```bash
 brew upgrade --cask cofferly
