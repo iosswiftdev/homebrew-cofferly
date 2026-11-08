@@ -1,6 +1,6 @@
 cask "cofferly" do
-  version "0.5.0"
-  sha256 "59bee926d99b9ad2d14238b29c4978c7e96dc7300dbd5f12d699d38c7425bb16"
+  version "0.5.1"
+  sha256 "a41e80315cb2c078f2c4d3df1930286d837577f973cc5b641eeaebbcb41aa95b"
   auto_updates true
 
   url "https://github.com/iosswiftdev/homebrew-cofferly/releases/download/v#{version}/Cofferly-#{version}.zip"

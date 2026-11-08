@@ -3,39 +3,22 @@
   <channel>
     <title>Cofferly</title>
     <item>
-      <title>Cofferly 0.5.0</title>
-      <pubDate>Tue, 03 Nov 2026 17:14:03 +0000</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <title>Cofferly 0.5.1</title>
+      <pubDate>Sun, 08 Nov 2026 17:52:35 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text">Restores and Start Over that can't be cut short, and Suggested: what in your history fits the field you're typing in.
-
-- **Restoring a backup can't be cut short:** if Cofferly quits or your Mac stops during a restore, the next start either finishes it or keeps your history as it was, never a mix of the two.
-- **A restore keeps your protection:** restored keys are protected at least as strongly as the backup and this Mac ask, so a key that needed Touch ID still needs it.
-- **A backup without the key to its sensitive items** asks first: you can restore the rest, and those items stay closed until you open them with that backup's recovery key.
-- **Start Over finishes what it starts:** if it's interrupted, Cofferly completes it the next time it starts, and nothing it erased comes back.
-- **Start Over and Uninstall tell you about your backups first:** a backup made before either can't be restored on this Mac afterwards, only on another one, so an erased history can't come back here unnoticed.
-- **Uninstall removes everything Cofferly made**, the former Pasty folder too once it's empty, and finishes at the next start if it's interrupted; installing Cofferly again sets up a new history.
-- **Cofferly tells you at launch when something didn't finish:** a restore or Start Over that stopped part way, a key that isn't the one Cofferly expects, or key settings an older version changed each get a panel with the way on, and your history stays closed until then.
-- **Nothing is sealed to a key that's gone:** if the key to your sensitive items is missing, a new secret waits and an item you mark stays as it is, rather than going somewhere it can't be opened from.
-- **Suggested:** a new tab, second on the bar, shows what in your history fits the field you're typing in, such as your IBAN in a bank form, your email address at a sign-in or a version number in a release field, also in apps like Slack, Asana and VS Code, and you can give it a shortcut of its own in Settings › Shortcuts.
-- **Updates from within Cofferly:** turn on Check for updates automatically (Settings › General), or choose Check for Updates… in the menu bar; Cofferly downloads and installs a new version only when you choose Install and Relaunch, and waits until you're not using it.
-- **Paste Stack:** start it from the menu bar (or a shortcut you set in Settings › Shortcuts), copy a few things, then press ⌘V where each goes: they paste in the order you copied them, and the menu bar shows how many are left.
-- **Windows you can get back to:** while a Cofferly window is open it shows in the Dock and in ⌘-Tab, so it can't get lost behind other apps, and each one opens centred on the screen you're on. With none open, Cofferly stays out of both.
-- **Your items fade in:** when the panel first opens after you unlock Cofferly, the items appear with a short, soft fade instead of all at once; with Reduce Motion on they simply appear.
-- **Search by date:** type "yesterday", "last week" or "oct 12" in the search box, alone or with other words.
-- **Merge:** pick a few text items with ⌘-click and press ⌘M to put them in one new item, one per line; ⌘Z takes it back.
-- **Arrange your tabs:** drag any tab to a new place and the others make room, or right-click it to move, hide or colour it; ⌘Z takes a move back; ⌥1 to ⌥8 and Tab follow what's on the bar, boards included, Reset Tab Order puts the order back, and Settings › General brings a hidden tab back.
-- **Pinboards:** Pinned is now your first board, after the tabs; make more with the +, rename any of them, give each an icon and a colour, drag their tabs into the order you like, put an item on any of them with Add to Board, drag to order each one, and bring your boards over from Paste when you import; ⌘Z brings back a board you deleted.
-- **More Shortcuts actions:** Add to Cofferly, Get Recent Items, Copy an Item, and one that starts a Paste Stack or opens Suggested; the ones that hand out what you copied work only while Cofferly is unlocked and never give out sensitive items or one-time codes.
-- **Keynote files show their preview:** a copied presentation is no longer taken for a private key.
-- **Creating a recovery key:** its window stays in front while you save the key in your password manager, so it's there when you come back to type the last four characters.
-- **Finish a restore before opening an older version of Cofferly.** If an older version's Start Over replaced a restored history, this version can't tell its keys from someone else's: it keeps your history closed, and Start Over begins a new, empty one.</description>
-      <enclosure url="https://github.com/iosswiftdev/homebrew-cofferly/releases/download/v0.5.0/Cofferly-0.5.0.zip" length="8062452" type="application/octet-stream" sparkle:edSignature="6RKQC3gZDVMogFd2yAwG7MjDa0FEgySzrf5zurnvDzVBl6KlWaGYUzcYKHnanBE9IAbnmwvMGQGgVUSldXOiBw=="/>
+      <description sparkle:format="plain-text">- **Opens faster over most apps:** as it opens, Cofferly now asks which field you're in only of Chrome-based apps (Chrome, Brave, Edge, Slack, Asana and the like), of an app it hasn't met yet, and of one where it once found no field to fill; over the others it opens without waiting for an answer.
+- **A paste goes only where you meant it:** if another app came to the front while Cofferly waited (for Touch ID, say), nothing is pasted, and Cofferly says so.
+- **A new recovery key now also gives your history new keys,** so the old key can't open anything made since. If you replaced or removed a recovery key before, make a new one in Settings › Security; where Cofferly can tell, What's New takes you through it.
+- **Check your recovery key:** you can now check that the recovery key you kept is the current one, in Settings › Security, and once a year Cofferly offers to.
+- **What's New… shows what's new in this version,** and Cofferly's windows open in the middle of your screen at eye height, also when their content grows.
+- **Pick with the keyboard:** ⌘→ picks the item you're on and the next one, and one more with each press; ⌘← takes the last one off again. ↩ pastes them in order.</description>
+      <enclosure url="https://github.com/iosswiftdev/homebrew-cofferly/releases/download/v0.5.1/Cofferly-0.5.1.zip" length="8761675" type="application/octet-stream" sparkle:edSignature="z6LDvTHNk9jEP8PqQU+jZFSwDLDVDnigoXDixpjn6WjcjYC8WJul8/fjDQ04C01dscwvILtW12bFgVY98YWgDA=="/>
     </item>
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: uQSnCvG94i9uSq5krjqRscNjpO4ArO+kJgiHCy15yekauu8HdNX39Ne9zdhPS1zrwZn5uWpknLrsCd+yCE9YBQ==
-length: 5430
+edSignature: zHQ3EEvFoWqxYIu/n+vTcjuLmUpgQk/s9CUWfKF0TihRokeGcYZtBz+op5ziqC0HcNEai70PmXsLlfWDUzZWCA==
+length: 2037
 -->
