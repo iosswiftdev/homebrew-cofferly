@@ -3,22 +3,28 @@
   <channel>
     <title>Cofferly</title>
     <item>
-      <title>Cofferly 0.5.1</title>
-      <pubDate>Sun, 08 Nov 2026 17:52:35 +0000</pubDate>
-      <sparkle:version>37</sparkle:version>
-      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <title>Cofferly 0.5.3</title>
+      <pubDate>Sat, 14 Nov 2026 08:37:01 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text">- **Opens faster over most apps:** as it opens, Cofferly now asks which field you're in only of Chrome-based apps (Chrome, Brave, Edge, Slack, Asana and the like), of an app it hasn't met yet, and of one where it once found no field to fill; over the others it opens without waiting for an answer.
-- **A paste goes only where you meant it:** if another app came to the front while Cofferly waited (for Touch ID, say), nothing is pasted, and Cofferly says so.
-- **A new recovery key now also gives your history new keys,** so the old key can't open anything made since. If you replaced or removed a recovery key before, make a new one in Settings › Security; where Cofferly can tell, What's New takes you through it.
-- **Check your recovery key:** you can now check that the recovery key you kept is the current one, in Settings › Security, and once a year Cofferly offers to.
-- **What's New… shows what's new in this version,** and Cofferly's windows open in the middle of your screen at eye height, also when their content grows.
-- **Pick with the keyboard:** ⌘→ picks the item you're on and the next one, and one more with each press; ⌘← takes the last one off again. ↩ pastes them in order.</description>
-      <enclosure url="https://github.com/iosswiftdev/homebrew-cofferly/releases/download/v0.5.1/Cofferly-0.5.1.zip" length="8761675" type="application/octet-stream" sparkle:edSignature="z6LDvTHNk9jEP8PqQU+jZFSwDLDVDnigoXDixpjn6WjcjYC8WJul8/fjDQ04C01dscwvILtW12bFgVY98YWgDA=="/>
+      <description sparkle:format="plain-text">- **Drag a card onto a board's tab to add it there,** or several cards you've picked with ⌘-click: the tab lights up under the pointer, and ⌘Z takes it back. Dragged from one board to another, the cards move.
+- **Put cards in your own order by dragging them,** in any tab and on your boards. A new copy goes on top, a search shows its matches newest first, and Newest First in the tab's menu brings back the usual order. With VoiceOver: Move Earlier, Move Later and Move to Board.
+- **Search with dates the way you say them,** such as "last weekend", "past 3 days" or "middle of last month".
+- **More room for your boards on the tab bar:** as many boards show by name as fit, and the rest are under More. When it fills up, Text, Images, Links, Files and Sensitive show only their icons first; choose in Settings › General › Tab titles.
+- **A copy from an app you excluded stays out,** also when you switch to another app right after copying.
+- **Locking your Mac while Cofferly is unlocking now keeps Cofferly locked,** and it asks for Touch ID again.
+- **Shortcuts reads your items only if you let it:** Get Recent Items and Copy an Item now work once you turn on "Let Shortcuts read your items" in Settings › Privacy.
+- **Updates always ask before they install:** no other app or setting can make Cofferly download and install an update by itself when you quit.
+- **Links in your items and previews open only if they're web links:** a link to a file or another app does nothing.
+- **Your recovery key stays out of screen sharing and recordings** while Cofferly shows it.
+- **The Accessibility request says what it's for:** pasting with ⌘V, and Suggested reading the field you type in, never a password field, and nothing leaves your Mac.
+- **Copies made while Cofferly was locked are kept, even when this version can't read them,** and Cofferly tells you so when it unlocks: a newer version probably made them.</description>
+      <enclosure url="https://github.com/iosswiftdev/homebrew-cofferly/releases/download/v0.5.3/Cofferly-0.5.3.zip" length="9301720" type="application/octet-stream" sparkle:edSignature="cDJXSd7v/iY0rMLGijw3njLfwcv1YSK/qcMi4AFpylAbe0yqASIo8hlBhzV3XeMAar+NtHURw9jfYVOjjG/SDQ=="/>
     </item>
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: zHQ3EEvFoWqxYIu/n+vTcjuLmUpgQk/s9CUWfKF0TihRokeGcYZtBz+op5ziqC0HcNEai70PmXsLlfWDUzZWCA==
-length: 2037
+edSignature: Itj8SfoMIoEyfurnSXiVucZm9tbcg98dGFEWzkQRCqH+XtAzd8DCa/tXP5NRzPBHFyhKUGwYXEMOclQKtcOsBA==
+length: 2752
 -->
